@@ -1,14 +1,1 @@
-name: Example GitHub Action
 
-on:
-  push:
-    branches:
-      - main  # Change to the branch you want the action to trigger on (e.g., main or master)
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: 24f1000189@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
